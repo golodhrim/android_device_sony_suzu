@@ -14,9 +14,13 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/ivy/full_ivy.mk)
+$(call inherit-product, device/sony/suzu/full_ivy.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ivy
+PRODUCT_NAME := lineage_suzu
+PRODUCT_DEVICE := suzu
+PRODUCT_BRAND := Sony
+PRODUCT_MODEL := Xperia X
+PRODUCT_MANUFACTUERER := Sony
